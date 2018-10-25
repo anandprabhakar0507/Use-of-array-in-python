@@ -1,13 +1,10 @@
-﻿#! /usr/bin/env python3
+#! /usr/bin/env python3
 
 import turtle
-
-print "GO RUN YOUR CODE FRIENDS..." 
-print ('Note:Be careful of indentation mistakes while writing python scripts...-ANAND PRABHAkAR')
-        
+    
 import turtle
 t = turtle.Turtle()
-for c in ['red', 'green', 'yellow', 'blue', 'brown', 'violet', 'indigo', 'blue', 'lightgreen', 'yellow', 'orangre', 'red', 'pink', 'skyblue', 'brown', 'violet', 'indigo', 'blue', 'lightgreen', 'yellow', 'orangre', 'red', 'pink', 'skyblue']:
+for c in ['red', 'green', 'yellow', 'blue', 'brown', 'violet', 'indigo', 'blue', 'lightgreen', 'yellow', 'orange', 'red', 'pink', 'skyblue', 'brown', 'violet', 'indigo', 'blue', 'lightgreen', 'yellow', 'orange', 'red', 'pink', 'skyblue', 'red', 'green', 'yellow', 'blue', 'brown', 'violet']:
     t.color(c)
     t.forward(75)
     t.left(90)
